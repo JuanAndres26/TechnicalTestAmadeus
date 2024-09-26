@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "skyBook.Service", "skyBook.Service\skyBook.Service.csproj", "{6BC3BCA3-DF57-4BBC-9D00-3EE024136D4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "skyBook.Entiti", "skyBook.Entiti\skyBook.Entiti.csproj", "{9AD2A7F9-6618-42AF-B3B3-874D4BE19126}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "skyBook.interface", "skyBook.interface\skyBook.interface.csproj", "{95EAD7C4-9C2A-4E93-8A25-5FD0088C748F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "skyBook.impl", "skyBook.impl\skyBook.impl.csproj", "{5EFC3567-2A82-4244-B399-F181770C296D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "skyBook.database", "skyBook.database\skyBook.database.csproj", "{38B2CF16-8192-44B9-89A8-78F33FB5D958}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BC3BCA3-DF57-4BBC-9D00-3EE024136D4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BC3BCA3-DF57-4BBC-9D00-3EE024136D4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BC3BCA3-DF57-4BBC-9D00-3EE024136D4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BC3BCA3-DF57-4BBC-9D00-3EE024136D4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AD2A7F9-6618-42AF-B3B3-874D4BE19126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AD2A7F9-6618-42AF-B3B3-874D4BE19126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AD2A7F9-6618-42AF-B3B3-874D4BE19126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AD2A7F9-6618-42AF-B3B3-874D4BE19126}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95EAD7C4-9C2A-4E93-8A25-5FD0088C748F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95EAD7C4-9C2A-4E93-8A25-5FD0088C748F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95EAD7C4-9C2A-4E93-8A25-5FD0088C748F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95EAD7C4-9C2A-4E93-8A25-5FD0088C748F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EFC3567-2A82-4244-B399-F181770C296D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EFC3567-2A82-4244-B399-F181770C296D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EFC3567-2A82-4244-B399-F181770C296D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EFC3567-2A82-4244-B399-F181770C296D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38B2CF16-8192-44B9-89A8-78F33FB5D958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38B2CF16-8192-44B9-89A8-78F33FB5D958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38B2CF16-8192-44B9-89A8-78F33FB5D958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38B2CF16-8192-44B9-89A8-78F33FB5D958}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E1E7BFF-F9F1-44F3-96D0-C0EE0429FC28}
+	EndGlobalSection
+EndGlobal
