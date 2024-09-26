@@ -65,8 +65,22 @@ builder.Services.AddAuthentication(options =>
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("qE3fW2gT8J1oK9pZ7sQ4iV6mC5rH3dA9")) // Tu clave secreta
     };
 });
+
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllOrigins",
+        builder =>
+        {
+            builder.AllowAnyOrigin()
+                   .AllowAnyMethod()
+                   .AllowAnyHeader();
+        });
+});
+
 var app = builder.Build();
 
+app.UseCors("AllowAllOrigins");
 // Configure the HTTP request pipeline. 
 if (app.Environment.IsDevelopment())
 {
